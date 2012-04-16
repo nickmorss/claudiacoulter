@@ -1,0 +1,17 @@
+/*
+me:     Claudia Coulter
+Theme URI:      http://claudiacoulter.com/
+Description:    Claudia coulter theme
+Author:         Nick Morss
+Author URI:     http://nickmorss.com
+Template:       roots
+Version:        0.1.0
+*/
+
+@import url("../twentyten/style.css");
+
+
+body {
+background: red;
+}
+
