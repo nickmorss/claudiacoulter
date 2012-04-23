@@ -8,7 +8,25 @@ Template:       roots
 Version:        0.1.0
 */
 
-@import url("../twentyten/style.css");
+@import url(http://fonts.googleapis.com/css?family=Cardo:400italic);
 
+/*colors*/
+body, .navbar .brand {color:#444444;}
 
+/*pepermint*/
+blockquote p, a, a:hover {color:#188699;}
+.navbar .nav > li > a:hover, .navbar .nav .active > a, .navbar .nav .active > a:hover {background-color:#188699;}
+
+body {padding:0;}
+header.navbar-fixed-top {position:static;top:0;margin:10px 0 20px 0;}
+header .container {/*border-bottom:solid 1px #E6E6E6;*/padding:20px 0;}
+.navbar-inner {background:#F3F3F3;color:#000;-webkit-box-shadow: none-moz-box-shadow:none;box-shadow:none;}
+.navbar .nav > li {padding-left:70px}
+.navbar .nav > li > a {text-shadow:none;text-transform:uppercase;font-size:11px;line-height: 10px;}
+#menu-primary-navigation {float:right;}
+
+h1, blockquote p {font-style:italic;font-family: 'Cardo', serif;font-weight: normal;} 
+blockquote {border-left:0;}
+
+.page-header {border-bottom:none}
 
